@@ -42,10 +42,10 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "SATS Legal chat"
-    logo: Optional[str] = None
+    logo: Optional[str] = "/Sats_logo.png"
     chat_logo: Optional[str] = "/Sats_logo.png"
     chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_description: str = "This chatbot is configured to answer legal questions related to SATS"
     favicon: str = "/Sats_logo.png"
     show_share_button: bool = True
     show_chat_history_button: bool = True
