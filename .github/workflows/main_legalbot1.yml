@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'LegalBot1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC2B9CB974184221B56E6325F8A8A8F6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C13C6EE7AA454F34B1A970D9263F8096 }}
